@@ -1,0 +1,133 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    height: 70px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Atur ukuran dan warna bayangan sesuai kebutuhan */
+}
+
+.navbar-brand {
+    display: flex;
+    font-weight: bold;
+    color: #5eb1e6 !important;
+}
+
+.navbar-nav .nav-link {
+    display: flex;
+    padding: 15px 10px;
+    /* Contoh mengatur padding link navbar */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #5eb1e6 !important;
+    color: #007bff;
+}
+
+.image-header {
+    position: relative;
+    text-align: center;
+}
+
+.image-header img {
+    width: 100%;
+    height: auto;
+}
+
+.image-header .text {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+/* Carde Class for Simple Card with Border */
+.carde {
+    border: 1px solid #5eb1e6;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.carde .card-body {
+    text-align: center;
+}
+
+.carde .card-title {
+    color: #5eb1e6;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.carde .card-text {
+    color: #343a40;
+}
+
+.carde .card-info {
+    color: #376581;
+    background-color: gold;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+/* Card Class with Zoom-in Effect */
+.card {
+    border: 1px solid #5eb1e6;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card .card-body {
+    text-align: center;
+}
+
+.card .card-title {
+    color: #5eb1e6;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card .card-text {
+    color: #343a40;
+}
+
+.card .card-info {
+    color: #376581;
+    background-color: gold;
+    border-radius: 20px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #5eb1e6;
+    border-color: #5eb1e6;
+}
+
+.btn-primary:hover {
+    background-color: #4a99c9;
+    border-color: #4a99c9;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: white;
+}

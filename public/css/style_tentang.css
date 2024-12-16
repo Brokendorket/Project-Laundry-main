@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar {
+    display: flex;
+    height: 70px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Atur ukuran dan warna bayangan sesuai kebutuhan */
+}
+
+.navbar-brand {
+    display: flex;
+    font-weight: bold;
+    color: #5eb1e6 !important;
+}
+
+.navbar-nav .nav-link {
+    display: flex;
+    padding: 15px 10px;
+    /* Contoh mengatur padding link navbar */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #5eb1e6 !important;
+    color: #007bff;
+}
+
+.image-header {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-header img {
+    width: 100%;
+    height: auto;
+}
+
+.image-header .text {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+}
+
+.image-header .text h3 {
+    text-align: right;
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.image-header .text p {
+    font-size: 1em;
+    color: #f8f9fa;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #5eb1e6;
+    border-color: #5eb1e6;
+}
+
+.whatsapp-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #00ff00ea;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.whatsapp-link svg {
+    margin-right: 5px;
+}
+
+footer {
+    background-color: #f8f9fa;
+}
+
+/* CSS untuk membuat tulisan berada di tengah */
+.image-header {
+    position: relative;
+    text-align: center;
+    color: #007bff; /* Warna teks */
+}
+
+.overlay-box p {
+    color: rgb(0, 0, 0); /* Mengubah warna teks paragraf  */
+}
+
+.larger-header {
+    font-size: 85px; /* Mengatur ukuran font menjadi lebih besar */
+    margin-bottom: 20px; /* Menambahkan margin bawah */
+    color: #ffffff; /* Mengatur warna teks menjadi putih */
+}
+
+.overlay-box {
+    /* Kode CSS lainnya */
+    transition: transform 0.3s ease; /* Efek transisi untuk transformasi */
+}
+
+.overlay-box:hover {
+    transform: scale(1.2); /* Memperbesar elemen saat kursor di dalam kotak */
+}
+/* CSS */
+.white-bg {
+    background-color: #fff; /* Warna latar belakang putih */
+    padding: 200px 0; /* Penambahan padding di atas dan bawah */
+}
+
+.overlay-box h1 {
+    color: #007bff; /* Warna biru muda */
+}
+
+.overlay-box {
+    width: 80%; /* Ubah lebar menjadi 80% dari lebar parent */
+    height: 300px; /* Ubah tinggi menjadi 300px */
+    /* Properti CSS lainnya */
+}
+
+.centered-text {
+    position: absolute; /* Mengatur posisi absolut terhadap kontainer yang terdeklarasi */
+    top: 40%; /* Menempatkan elemen ke titik tengah vertikal kontainer */
+    left: 45%; /* Menempatkan elemen ke titik tengah horizontal kontainer */
+    transform: translate(
+        -50%,
+        -50%
+    ); /* Menggeser elemen sejauh 50% dari lebar dan tingginya sendiri, sehingga elemen berada di tengah */
+    display: flex; /* Mengatur elemen sebagai flex container */
+    align-items: center; /* Menyusun elemen ke tengah secara vertikal dalam flex container */
+    justify-content: center; /* Menyusun elemen ke tengah secara horizontal dalam flex container */
+    flex-direction: column; /* Opsi ini jika Anda ingin konten di dalamnya berada dalam satu kolom */
+}
+
+.overlay-box {
+    background-color: rgba(
+        225,
+        225,
+        225,
+        0.1
+    ); /* Memberikan warna latar belakang dengan nilai alpha (transparansi) */
+    padding: 20px; /* Memberikan ruang kosong di dalam elemen overlay-box */
+    border-radius: 10px; /* Mengatur sudut border elemen */
+    border: 2px solid #ffffff; /* Mengatur border elemen dengan warna abu-abu */
+    max-width: 100%; /* Mengatur lebar maksimum elemen overlay-box */
+}
+
+.overlay-box {
+    position: relative; /* Tetapkan posisi absolut */
+    top: 50%; /* Tempatkan elemen di tengah vertikal */
+    left: 10%; /* Tempatkan elemen di tengah horizontal */
+}

@@ -1,0 +1,62 @@
+.body {
+    font-family: "Poppins", sans-serif;
+    background: url("login.png") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+/* Overlay untuk menurunkan opacity background image */
+.body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Adjust opacity as needed */
+    z-index: 0;
+}
+
+.navbar {
+    display: flex;
+    height: 70px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* Atur ukuran dan warna bayangan sesuai kebutuhan */
+}
+
+.navbar-brand {
+    display: flex;
+    font-weight: bold;
+    color: #5eb1e6 !important;
+}
+
+.navbar-nav .nav-link {
+    display: flex;
+    padding: 15px 10px;
+    /* Contoh mengatur padding link navbar */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #5eb1e6 !important;
+    color: #007bff;
+}
+
+.image-header {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-header img {
+    width: 100%;
+    height: auto;
+}
+
+.btn-primary {
+    background-color: #5eb1e6;
+    border-color: #5eb1e6;
+}
+
+.footer {
+    background-color: #f8f9fa;
+}
